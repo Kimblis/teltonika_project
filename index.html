@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/3d69be332c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Front end assignment</title>
+  </head>
+  <body>
+    <main>
+      <div class="logo">
+        <img src="logo.svg" alt="" />
+      </div>
+      <div class="container">
+        <header>
+          <h1>Šalys</h1>
+          <i id="add-btn" class="fas fa-plus"></i>
+        </header>
+        <div class="search-container">
+          <div class="search">
+            <input type="text" id="search-bar" />
+          </div>
+          <div class="data-filter">
+            <button class="filter-btn">DATA FILTER</button>
+          </div>
+        </div>
+        <div class="modal-overlay">
+          <div class="modal-container">
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+          </div>
+        </div>
+        <div class="table">
+          <table>
+            <div class="table-head">
+              <tr class="table-header">
+                <th class="pavadinimas">
+                  Pavadinimas <i class="fas fa-sort"></i>
+                </th>
+                <th>Užimamas plotas</th>
+                <th>Gyventojų skaičius</th>
+                <th>Šalies tel. kodas</th>
+                <th>Veiksmai</th>
+              </tr>
+            </div>
+            <div class="table-body">
+              <tr class="table-item">
+                <td>Lietuva</td>
+                <td>120</td>
+                <td>142174</td>
+                <td>1125161234</td>
+                <td class="actions">
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-pen"></i>
+                </td>
+              </tr>
+              <tr class="table-item">
+                <td>Lietuva</td>
+                <td>155</td>
+                <td>1524</td>
+                <td>15125161234</td>
+                <td class="actions">
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-pen"></i>
+                </td>
+              </tr>
+              <tr class="table-item">
+                <td>Lietuva</td>
+                <td>155</td>
+                <td>1442</td>
+                <td>02115161234</td>
+                <td class="actions">
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-pen"></i>
+                </td>
+              </tr>
+              <tr class="table-item">
+                <td>Lietuva</td>
+                <td>120</td>
+                <td>19412</td>
+                <td>05161234</td>
+                <td class="actions">
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-pen"></i>
+                </td>
+              </tr>
+              <tr class="table-item">
+                <td>Lietuva</td>
+                <td>125</td>
+                <td>3542</td>
+                <td>1157334</td>
+                <td class="actions">
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-pen"></i>
+                </td>
+              </tr>
+              <tr class="table-item">
+                <td>Lietuva</td>
+                <td>155</td>
+                <td>12044</td>
+                <td>14571234</td>
+                <td class="actions">
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-pen"></i>
+                </td>
+              </tr>
+              <tr class="table-item">
+                <td>Lietuva</td>
+                <td>125</td>
+                <td>1124</td>
+                <td>150361234</td>
+                <td class="actions">
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-pen"></i>
+                </td>
+              </tr>
+              <tr class="table-item">
+                <td>Lietuva</td>
+                <td>145</td>
+                <td>12124</td>
+                <td>13451534</td>
+                <td class="actions">
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-pen"></i>
+                </td>
+              </tr>
+              <tr class="table-item">
+                <td>Lietuva</td>
+                <td>105</td>
+                <td>124144</td>
+                <td>15124361234</td>
+                <td class="actions">
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-pen"></i>
+                </td>
+              </tr>
+              <tr class="table-item">
+                <td>Lietuva</td>
+                <td>124</td>
+                <td>19754</td>
+                <td>124151234</td>
+                <td class="actions">
+                  <i class="fas fa-trash-alt"></i>
+                  <i class="fas fa-pen"></i>
+                </td>
+              </tr>
+            </div>
+          </table>
+        </div>
+        <div class="pagination">
+          <i class="fas fa-angle-left"></i>
+          <a class="active" href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <i class="fas fa-angle-right"></i>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
